@@ -1,47 +1,53 @@
-# Getting Started with Create React App
+# Quiz App em React com TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um aplicativo de quiz interativo desenvolvido em React usando TypeScript. O aplicativo permite aos usuários testar seus conhecimentos respondendo a uma série de perguntas em diferentes áreas.
 
-## Available Scripts
+## Instruções de Instalação
+Para executar este projeto localmente, siga estas etapas:
 
-In the project directory, you can run:
+#### *Clone este repositório:*
 
-### `yarn start`
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### *Navegue até o diretório do projeto:*
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+cd nome-do-repositorio
+```
 
-### `yarn test`
+#### *Instale as dependências:*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
+#### *Execute o aplicativo:*
+```bash
+npm start
+```
+Abra o navegador e acesse http://localhost:3000.
 
-### `yarn build`
+## Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### *Respostas Interativas:* 
+Os usuários podem selecionar suas respostas entre várias opções de resposta.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### *Resultados Finais:*
+Após completar o quiz, os usuários podem visualizar as perguntas que responderam incorretamente.
 
-### `yarn eject`
+#### *Reinício do Quiz:*
+Os usuários têm a opção de reiniciar o quiz para testar seus conhecimentos novamente.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# quiz-app
+## Tecnologias Utilizadas
+#### *React:*
+Uma biblioteca JavaScript para construção de interfaces de usuário.
+#### *TypeScript:* 
+Um superset tipado de JavaScript que compila para JavaScript puro.
+#### *CSS:* 
+Estilização utilizando folhas de estilo em cascata.
+#### *GitHub:* 
+Controle de versão e hospedagem do código-fonte.
+## Contribuição
+Se você deseja contribuir para este projeto, sinta-se à vontade para criar um fork e enviar pull requests. Todas as contribuições são bem-vindas!
