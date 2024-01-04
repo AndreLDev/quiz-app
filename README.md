@@ -8,13 +8,13 @@ Para executar este projeto localmente, siga estas etapas:
 #### *Clone este repositório:*
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/AndreLDev/quiz-app.git
 ```
 
 #### *Navegue até o diretório do projeto:*
 
 ```bash
-cd nome-do-repositorio
+cd quiz-app
 ```
 
 #### *Instale as dependências:*
